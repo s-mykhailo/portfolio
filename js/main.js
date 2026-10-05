@@ -56,7 +56,6 @@ function renderBots(t) {
       '<button type="button" class="bot__pick" aria-pressed="' + active + '">' +
         '<span class="bot__ava' + (b.platform === 'discord' ? ' bot__ava--dc' : '') + '" aria-hidden="true">' + (b.ava ? '<img src="' + esc(b.ava) + '" alt="" width="42" height="42" loading="lazy" decoding="async">' : esc(b.initial)) + '</span>' +
         '<span class="bot__name"><strong>' + esc(b.name) + '</strong><span class="bot__handle">' + esc(b.handle) + '</span></span>' +
-        (b.concept ? '<span class="badge">' + esc(d.badgeConcept) + '</span>' : '') +
       '</button>' +
       '<p class="bot__text">' + esc(b.text) + '</p>' +
       '<div class="bot__foot"><span class="tag">' + esc(b.tags[0]) + '</span>' +
