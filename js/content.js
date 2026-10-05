@@ -8,8 +8,8 @@
 window.CONTACTS = {
   telegram:   { url: 'https://t.me/savchenko_myhailo', label: '@savchenko_myhailo' },
   instagram:  { url: '', label: '' },   // e.g. 'https://instagram.com/yourname', '@yourname'
-  builtbybit: { url: '', label: '' },   // e.g. 'https://builtbybit.com/creators/...', 'BuiltByBit'
-  discord:    { url: '', label: '' },   // invite or profile link, label e.g. 'yourname'
+  builtbybit: { url: 'https://builtbybit.com/members/smykhailo.949841/', label: 'smykhailo' },
+  discord:    { url: 'https://discordapp.com/users/968425423644012565', label: 'by_sw1low' },   // invite or profile link, label e.g. 'yourname'
 
   /* "Try in Telegram / Discord" buttons on the demo cards.
      Leave '' until the bot is hosted: the button stays hidden. */
@@ -30,7 +30,7 @@ en: {
     title: 'S-Mykhailo | Telegram and Discord bots',
     description: 'Custom Telegram and Discord bots for small businesses and communities. Every project starts with a free working demo.'
   },
-  ticker: ['Booking', 'Leads', 'Shop catalog', 'Tickets', 'Roles and verification', 'Minecraft', 'Payments', 'Reminders', 'Owner alerts', 'Admin panel'],
+  ticker: ['Booking', 'Leads', 'Shop catalog', 'Tickets', 'Roles and verification', 'Minecraft', 'Reminders', 'Owner alerts', 'Admin panel'],
   ui: {
     skip: 'Skip to content',
     navLabel: 'Main navigation',
@@ -134,7 +134,7 @@ uk: {
     title: 'S-Mykhailo | Telegram- і Discord-боти',
     description: 'Кастомні Telegram- і Discord-боти для малого бізнесу та спільнот. Кожен проєкт починається з безкоштовного робочого демо.'
   },
-  ticker: ['Запис', 'Заявки', 'Каталог магазину', 'Тікети', 'Ролі та верифікація', 'Minecraft', 'Оплата', 'Нагадування', 'Сповіщення власнику', 'Адмін-панель'],
+  ticker: ['Запис', 'Заявки', 'Каталог магазину', 'Тікети', 'Ролі та верифікація', 'Minecraft', 'Нагадування', 'Сповіщення власнику', 'Адмін-панель'],
   ui: {
     skip: 'Перейти до змісту',
     navLabel: 'Головна навігація',
